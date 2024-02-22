@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <meta charset="utf-8" />
+    </head>
+    <script src="/scripts/building.js"></script>
+    <script src="/scripts/script.js"></script>
+    <body>
+        <main>
+            <h1 style="background-color:rgb(71, 120, 255);">Amazon Packages</h1>
+            <h2 style="background-color:rgb(71, 120, 255);" id="score">0</h2>
+            <button type="button" onclick="scorePlusPlus()">Click Me!</button>
+            <br />
+            <button
+                type="button"
+                id="buySingleCursor"
+                onclick="cursor.purchase()"
+            >
+                Buy Cursor
+            </button>
+
+            <button
+                type="button"
+                id="buyEnergyDrink"
+                onclick="energyDrink.purchase()"
+            >
+                Buy Energy Drink
+            </button>
+
+            <button type="button" id="buyTendies" onclick="tendies.purchase()">
+                Buy Tendies
+            </button>
+
+            <button type="button" id="buyStonks" onclick="stonks.purchase()">
+                Buy Stonks
+            </button>
+            <button type="button" id="buyAI" onclick="AI.purchase()">
+                Buy AI
+            </button>
+            <button type="button" id="buyCeoClone" onclick="ceoClone.purchase()">
+                Buy CeoClone
+            </button>
+            <button type="button" id="buyWarehouse" onclick="warehouse.purchase()">
+                buy Warehouse
+            </button>
+        </main>
+    </body>
+</html>
